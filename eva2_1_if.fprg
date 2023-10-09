@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-09 05:41:53 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMTAtMDk7MDU6MDc6MTEgcC4gbS47MjgyNw=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMTAtMDk7MDU6NDE6NTMgcC4gbS47MTsyOTM5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="calificacion" type="Integer" array="False" size=""/>
+            <output expression="&quot;introduce la calificacion&quot;" newline="True"/>
+            <input variable="calificacion"/>
+            <if expression="calificacion &gt;= 70">
+                <then>
+                    <output expression="&quot;aprobaado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;no aprobo&quot;" newline="True"/>
+                </else>
+            </if>
+            <output expression="&quot;fin del programa&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
