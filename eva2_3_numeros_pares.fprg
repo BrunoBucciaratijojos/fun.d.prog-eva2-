@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-10 05:50:42 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMTAtMTA7MDU6MzM6MTUgcC4gbS47MjgyMg=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwMjEyOzIwMjMtMTAtMTA7MDU6NTA6NDIgcC4gbS47MjsyOTMw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valor" type="Integer" array="False" size=""/>
+            <declare name="residuo" type="Integer" array="False" size=""/>
+            <output expression="&quot;numero&quot;" newline="True"/>
+            <input variable="valor"/>
+            <assign variable="residuo" expression="(valor%2)"/>
+            <if expression="residuo=0">
+                <then>
+                    <output expression="&quot;el n&#250;mero es par&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;el numero no es par, es impar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
